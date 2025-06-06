@@ -224,6 +224,7 @@ header nav ul li a.ativo {
 }
 
 .sem-estoque {
+  cursor: not-allowed;
   display: inline-block;
   background: #00356e;
   color: #fff;
@@ -257,6 +258,15 @@ header nav ul li a.ativo {
   margin-bottom: 20px;
   align-items: center;
   justify-content: space-between;
+}
+
+.redes-sociais-bloco {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
 }
 
 .redes-sociais-icons {
@@ -525,4 +535,88 @@ footer a:hover {
   .produto-principal-img img {
     max-width: 100%;
   }
+
+
+}
+
+.valores-secao {
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.valores-grid {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.valor-item {
+  flex-basis: 30%;
+  margin-bottom: 20px;
+}
+
+.valor-item img {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  width: 64px;
+}
+
+.valor-item h3 {
+  color: #007bff;
+  font-size: 20px;
+}
+
+.valor-item p {
+  font-size: 15px;
+}
+
+.btn-orcamento {
+  background-color: #28a745;
+  color: white;
+  border-color: #28a745;
+}
+
+.btn-orcamento:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+.faq-secao {
+  padding-top: 40px;
+}
+
+.faq-container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.faq-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #e0e0e0;
+}
+
+.faq-summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.faq-content {
+  padding-top: 10px;
+}
+
+.link-azul {
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+.link-azul:hover {
+  color: #0056b3;
+  text-decoration: underline;
 }
